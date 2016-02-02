@@ -21,6 +21,8 @@ produces:
   - application/json
 paths:
   /pets:
+    x-summary: "Pets"
+    x-description: "A description for the Pets resource"
     get:
       description: |
         Returns all pets from the system that the user has access to
